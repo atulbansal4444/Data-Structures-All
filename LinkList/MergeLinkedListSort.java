@@ -25,6 +25,13 @@ class MergeInLinkedListSort
 		System.out.println(ll);
 	}
 }
+/*
+ * class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     ListNode(int x) { val = x; next = null; }
+ * }
+ */
 public class Solution {
     public ListNode mergeTwoLists(ListNode A, ListNode B) {
         ListNode dummyNode = new ListNode(0);
